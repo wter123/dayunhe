@@ -73,7 +73,7 @@ DATABASES = {
         'USER': "root" or os.environ.get("MYSQL_USERNAME"),
         'HOST': "localhost" or os.environ.get("MYSQL_ADDRESS").split(':')[0],
         'PORT': 3306 or os.environ.get("MYSQL_ADDRESS").split(':')[1],
-        'PASSWORD': "1234567" or os.environ.get("MYSQL_PASSWORD"),
+        'PASSWORD': "Ff1234567" or os.environ.get("MYSQL_PASSWORD"),
         'OPTIONS': {'charset': 'utf8mb4'},
     }
 }
