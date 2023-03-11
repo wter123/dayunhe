@@ -183,7 +183,7 @@ LOGGING = {
 
 LANGUAGE_CODE = 'zh-hans'  # 编码中文
 
-TIME_ZONE = 'Asia/Shanghai'  # 时区上海
+# TIME_ZONE = 'Asia/Shanghai'  # 时区上海
 USE_I18N = True
 
 USE_L10N = True
