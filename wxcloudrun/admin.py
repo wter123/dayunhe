@@ -1,10 +1,8 @@
 from django.contrib import admin
-import django_filters
 from wxcloudrun import models
 from wxcloudrun.models import datasmodel
 from django.utils.safestring import mark_safe
 
-from django_filters import rest_framework as filters
 from import_export.admin import ImportExportModelAdmin
 from import_export import resources
 
